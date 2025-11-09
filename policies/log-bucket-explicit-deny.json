@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DenyListingToReadOnlyUser",
+            "Effect": "Deny",
+            "Principal": {
+                "AWS": "arn:aws:iam::344302311013:user/test-readonly-user"
+            },
+            "Action": "s3:ListBucket",
+            "Resource": "arn:aws:s3:::my-logs-ice-1"
+        }
+    ]
+}
