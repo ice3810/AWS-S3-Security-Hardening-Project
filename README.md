@@ -75,5 +75,5 @@ The system returned an **ACCESS DENIED** error when the user attempted to view t
 The specific policies used to enforce these rules can be found in the following files in this repository:
 
   * **User Policy:** `least-privilege-s3-readonly.json`
-  * **Data Bucket Policy (Final Guardrail):** [`final-secure-bucket-policy.json`
-  * **Log Deny Policy (Fix):** [`log-bucket-explicit-deny.json`
+  * **Data Bucket Policy (Final Guardrail):** `final-secure-bucket-policy.json`
+  * **Log Deny Policy (Fix):** `log-bucket-explicit-deny.json`
